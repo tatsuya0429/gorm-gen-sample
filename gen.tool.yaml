@@ -1,0 +1,5 @@
+version: "0.1"
+database:
+  dsn: "user:development@tcp(localhost:3306)/mydb?charset=utf8mb4&parseTime=True&loc=Local"
+  db: "mysql"
+  tables: ["users", "todos"]
